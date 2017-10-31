@@ -7,11 +7,14 @@ Por ejemplo:
 Texto original: ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 
+## Pseudocódigo
+
 1. Solicitar al usuario ingresar la cadena por medio del prompt
 
 2.  Convertir el ingreso del usuario a arreglo, cada caracter en un elemento del array (wordString)
 
 3. Iniciar la función cipher, que tiene como parámetro (wordString)
+
 	* 3.1. Si el arreglo está vacío, regresar "opción no válida
 	* 3.2. Generar una variable de tipo arreglo (arrayAscii)
 	* 3.3. Recorrer cada elemento del arreglo e ir cambiando las letras por su código ascii (.charCodeAt()), guardar los cambios en arrayAscii
@@ -20,7 +23,7 @@ Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 	* 3.6 regresar el arreglo arrayAscii
 
 4. Iniciar function decipher, con parámetro (arrayAscii)
-	* 4.1. Recorrer cada elemento del arreglo y va cambiando los números del código ascii a letras (String.fromCharCode)
+	* 4.1. Recorrer cada elemento del arreglo e ir cambiando los números del código ascii a letras (String.fromCharCode)
 	* 4.2. regresar el arreglo arrayAscii
 
 5. Imprimir resultado

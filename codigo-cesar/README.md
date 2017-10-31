@@ -14,7 +14,9 @@ Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 3. Iniciar la función cipher, que tiene como parámetro (wordString)
 	* 3.1. Generar una variable de tipo arreglo (arrayAscii)
 	* 3.2. Recorrer cada elemento del arreglo e ir cambiando las letras por su código ascii (.charCodeAt()), guardar los cambios en arrayAscii
-	* 3.3 Si el elemento del arreglo transformado se encuentra entre los siguientes rangos(123-129 ó 97-103) restarle 26
+	* 3.3 Si el arreglo está vacío, regresar "opción no válida"
+  * 3.4 Si el arreglo contiene algún número, regresar "opción no válida"
+  * 3.5 Si el elemento del arreglo transformado se encuentra entre los siguientes rangos(123-129 ó 97-103) restarle 26
 	* 3.4 regresar el arreglo arrayAscii
 
 4. Iniciar function decipher, con parámetro (arrayAscii)
@@ -25,4 +27,4 @@ Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 
 ## Diagrama
 
-![DiagramaCesar](/assets/images/diagrama-de-flujo.PNG")
+![Diagrama Cesar](/assets/images/diagrama-de-flujo.PNG)

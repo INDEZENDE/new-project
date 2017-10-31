@@ -12,9 +12,9 @@ Texto codificado: HIJKLMNOPQRSTUVWXYZABCDEFG
 2.  Convertir el ingreso del usuario a arreglo, cada caracter en un elemento del array (wordString)
 
 3. Iniciar la función cipher, que tiene como parámetro (wordString)
-	* 3.1. Generar una variable de tipo arreglo (arrayAscii)
-	* 3.2. Recorrer cada elemento del arreglo e ir cambiando las letras por su código ascii (.charCodeAt()), guardar los cambios en arrayAscii
-	* 3.3 Si el arreglo está vacío, regresar "opción no válida"
+	* 3.1. Si el arreglo está vacío, regresar "opción no válida
+	* 3.2. Generar una variable de tipo arreglo (arrayAscii)
+	* 3.3. Recorrer cada elemento del arreglo e ir cambiando las letras por su código ascii (.charCodeAt()), guardar los cambios en arrayAscii
   * 3.4 Si el arreglo contiene algún número, regresar "opción no válida"
   * 3.5 Si el elemento del arreglo transformado se encuentra entre los siguientes rangos(123-129 ó 97-103) restarle 26
 	* 3.4 regresar el arreglo arrayAscii
